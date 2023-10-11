@@ -1,5 +1,5 @@
 # Max Sum of three
-Improve performance of task
+Improve task performance.
 
 ## Two solutions with times better performance than the original one.
 ### *First one is that I show you during the meeting with Stop Cycle Flag.
