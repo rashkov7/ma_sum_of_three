@@ -19,16 +19,15 @@ To do that, we find the maximum possible sum of three elements of given array an
       _numbers_range_ = (-100000, 500000) - tis is range of numbers. smallest - biggest
       _maximum_delay_ = 1.5 - thist is maxim time limit for each function to be executed.
 
-**Example of Test**
+## **Example of Test**
 
-_Elements in tested array: 1000, bound: (-100000, 500000)
+_Elements in tested array: 1000, bound: (-100000, 500000)_
 
-Execution time - (max_sum_cycles): 16.453s
-Result: 1494656
+_Execution time - (max_sum_cycles): 16.453s_
+_Result: 1494656_
 
-Execution time - (max_sum_cycles_stop_cycles): 6.402s
-Result: 1494656
+_Execution time - (max_sum_cycles_stop_cycles): 6.402s_
+_Result: 1494656_
 
-Execution time - (max_sum_sorted_method): 0.001s
-Result: 1494656
-_
+_Execution time - (max_sum_sorted_method): 0.001s_
+_Result: 1494656_
