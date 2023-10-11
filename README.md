@@ -19,7 +19,7 @@ To do that, we find the maximum possible sum of three elements of given array an
       _numbers_range_ = (-100000, 500000) - tis is range of numbers. smallest - biggest
       _maximum_delay_ = 1.5 - thist is maxim time limit for each function to be executed.
 
-## **Example of Test**
+## **Example Test**
 
 _Elements in tested array: 1000, bound: (-100000, 500000)_
 
