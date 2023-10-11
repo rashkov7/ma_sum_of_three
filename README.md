@@ -3,7 +3,8 @@ Improve performance of task
 
 ## Here I show two solutions with times better performance than the given one.
 ### -- First one is that I show you during the meeting with Stop Cycle Flag.
-     In that solution we try to stop all iteration as soon as possible. To do that, we find the maximum possible sum of three elements of given array and then assigned to variable (_max_sum_). When current sum of 3 elements is equals to that max_sum we stop iterration and  return the result. It is not the best solution but as you see it works.
+In that solution we try to stop all iteration as soon as possible. 
+To do that, we find the maximum possible sum of three elements of given array and then assigned to variable (_max_sum_). When current sum of 3 elements is equals to that max_sum we stop iterration and  return the result. It is not the best solution but as you see it works.
        
 ### -- Second one we sorted elements.
    First we sorted the given array in descended order and take first six elements in the new array, than we assigned result to different variable. All elements in new array will be tuples with two values (first is index of position in original array, second is his value). For that purpose we use "_enumerate_" function when we sorting the orgininal array.
