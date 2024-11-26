@@ -3,16 +3,13 @@ pipeline {
   stages {
        stage('Parallel Stage') {
         parallel {
-            stage('Task 1') {
+            stage('Building') {
                 steps {
                     echo 'Running Task 1'
                 }
             }
-            stage('Task 2') {
-                agent{
-                    docker{
-                        image 'node:18-alpine'
-                    }
+            stage('Test') {
+
                 }
                 steps {
                     echo 'Running Task 2'
